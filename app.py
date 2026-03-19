@@ -41,7 +41,7 @@ if img_file_buffer is not None:
     prediction = model.predict(data)
     print(prediction)
     if prediction[0][0]>0.5:
-      st.header('Foto con Osooo ʕ´•ᴥ•`ʔ')
+      st.header('Foto con Osooo  ʕ´•ᴥ•`ʔ')
     if prediction[0][1]>0.5:
       st.header('Foto sin Osoo ʕ ´•̥̥̥ ᴥ•̥̥̥`ʔ')
 
